@@ -46,17 +46,17 @@ $ npm test
 
 Interfaces are just a list of method names that `implements` will check for. Pass an `Object` and interface to `implements` like so.
 
-```
+```js
 var EventEmitter = require('events').EventEmitter;
 var emitter = new EventEmitter();
-var interf = ['on, 'off', 'emit'];
+var interf = ['on', 'off', 'emit'];
 
 impl(emitter, interf); // true
 ```
 
 If no interface is supplied then `implements` will supply return `true`.
 
-```
+```js
 impl(emitter); // true
 impl(emitter, null); // true
 ```
