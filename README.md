@@ -71,7 +71,7 @@ impl(emitter, EventEmitter); // true
 
 ## API
 
-#### implements(*[instance]*, *&lt;interface_&gt;*)
+#### implements(*&lt;instance&gt;*, *[interface_]*)
 
 ## License
 
