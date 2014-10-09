@@ -1,0 +1,32 @@
+{
+  "name": "implements",
+  "version": "0.0.1",
+  "description": "Utility module for checking if a given object implements a method list or Prototype.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tur-nr/node-implements.git"
+  },
+  "keywords": [
+    "implements",
+    "has",
+    "method",
+    "interface",
+    "prototype"
+  ],
+  "author": "Christopher Turner <turner296@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tur-nr/node-implements/issues"
+  },
+  "homepage": "https://github.com/tur-nr/node-implements",
+  "devDependencies": {
+    "mocha": "^1.21.4"
+  },
+  "dependencies": {
+    "isval": "0.0.2"
+  }
+}
