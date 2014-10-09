@@ -49,7 +49,7 @@ Interfaces are just a list of method names that `implements` will check for. Pas
 ```
 var EventEmitter = require('events').EventEmitter;
 var emitter = new EventEmitter();
-var interf = ['on, 'off', 'emit'];
+var interf = ['on', 'off', 'emit'];
 
 impl(emitter, interf); // true
 ```
