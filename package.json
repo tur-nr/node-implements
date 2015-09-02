@@ -27,6 +27,6 @@
     "mocha": "^1.21.4"
   },
   "dependencies": {
-    "isval": "0.1.0"
+    "isval": "~0.1.1"
   }
 }

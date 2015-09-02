@@ -1,0 +1,28 @@
+{
+  "name": "implements",
+  "main": "index.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/tur-nr/node-implements",
+  "authors": [
+    "Christopher Turner <turner296@gmail.com>"
+  ],
+  "description": "Utility module for checking if a given object implements a method list or Prototype.",
+  "keywords": [
+    "has",
+    "method",
+    "implements",
+    "prototype",
+    "interface"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "isval": "~0.1.1"
+  }
+}
