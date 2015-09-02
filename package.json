@@ -1,10 +1,12 @@
 {
   "name": "implements",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Utility module for checking if a given object implements a method list or Prototype.",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/.bin/mocha"
+    "preversion": "npm test",
+    "prepublish": "npm test",
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
